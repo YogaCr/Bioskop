@@ -1,0 +1,9 @@
+body{
+	overflow-x: hidden;
+	background-image: url(Jumbo.jpg);
+	background-color: rgba(0,0,0,0.5);
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}

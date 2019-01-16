@@ -1,0 +1,105 @@
+body{
+    overflow-x: hidden;
+}
+.navbar-default{
+	background-color:#011310;
+	border-bottom:0;
+	transition:all 0.5s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: White;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus{
+	background-color: #edff88;
+}
+.navbar-default .navbar-nav >li> a:hover{
+	color:yellow;
+}
+.navbar {
+	margin-bottom:0;
+}
+
+.jarak-atas{
+	margin-top:30px;
+    margin-bottom: 30px;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-image: url(jumbo.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.panel-footer {
+    padding: 30px 50px;
+	background-color:#011310;
+	color:White;
+    border-top:0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.berubah-menu{
+	background:transparent;	
+	border-bottom:2px dashed transparent;
+}
+@media screen and (max-width: 988px){
+    #daftarfilm .row{
+            margin-right: 0;
+    margin-left: 25%;
+    }
+}
+#keunggulan{
+    width:100%;
+    background:black;
+    text-align: center;   
+    color:white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+#palingbawah{
+    padding-top: 10%;
+    color:white;
+    background-image: url(jumbo.jpg);
+    background-color:  rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+.btn-info{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+}
+#keunggulan2{
+    width:100%;
+    text-align: center;      
+}
+#keunggulan2 .container-fluid{
+    padding: 0;
+}
+#keunggulan3{   
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+#keunggulan4{
+    width:100%;
+    text-align: center;
+    color:white;
+    background-image: url(handshake.jpg);background-size: cover;background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;
+}
+.row{
+    margin:0;
+}
